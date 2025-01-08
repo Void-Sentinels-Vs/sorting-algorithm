@@ -28,6 +28,9 @@ main:hover {
     border: 2px solid white;
     transition-duration: 0.5s;
 }
+main:not(:hover){
+    border: none;
+}
 div > p:first-of-type {
     font-size :23px;
     font-weight: bolder;
@@ -36,7 +39,7 @@ div > p:first-of-type {
     background-position: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: shine 3s infinite linear;
+    animation: shine 3s  infinite linear;
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
     text-decoration: none;
@@ -45,9 +48,6 @@ div > p:first-of-type {
   @keyframes shine {
     0%{
       background-position: 0
-    }
-    60%{
-      background-position: 180px
     }
     100%{
       background-position: 180px
@@ -87,3 +87,7 @@ div > a:hover {
     transition-duration: 0.7s;
     transform: scale(1.05);
 }
+div > a:not(:hover) {
+box-shadow: none;
+transition-duration: 0.7s;
+} 
