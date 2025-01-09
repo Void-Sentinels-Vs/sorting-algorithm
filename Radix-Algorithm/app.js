@@ -67,9 +67,9 @@ function selectionSort() {
   // converting the string to an array using JSON.parse
   const array = JSON.parse(inputValue);
   // calling the radix function
-  radixSort(array);
+  const sortedArray = radixSort(array);
   // converting the array to a string
-  const resultValue = JSON.stringify(array);
+  const resultValue = JSON.stringify(sortedArray);
   // showing the result
   result.textContent = resultValue;
   
