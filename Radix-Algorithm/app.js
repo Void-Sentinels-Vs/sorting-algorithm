@@ -1,6 +1,6 @@
 
-//"#array-input"
-
+// Get array from HTML document 
+const userInput = document.querySelector("#array-input")
 
 // Functions for radix sort algorithm (get array and return a sorted array)
 function radixSort(array) {
