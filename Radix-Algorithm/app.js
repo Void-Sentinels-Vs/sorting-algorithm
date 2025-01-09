@@ -15,7 +15,10 @@ function radixSort(array) {
     // (finglish) moshakhas mikonad moratab sazi (toye on lahze) bar asas kodam ragham anjam shavad (start az 1 > 10,100,...)
     let digitPlace = 1;
 
-
+    /*   
+        This loop run until : digitPlace > maxNumber
+        (finglish) "Math.floor" (sahih mandan ragham jari *elzami*) 
+    */
     while (Math.floor(maxNumber / digitPlace) > 0) {
 
         
