@@ -50,3 +50,25 @@ function radixSort(array) {
     // output 
     return array;
 }
+
+
+
+
+
+
+// giving button an event listener
+btn.addEventListener("click",selectionSort);
+// now the function itself
+function selectionSort() {
+  //getting the input array
+  const inputValue = input.value;
+  // converting the string to an array using JSON.parse
+  const array = JSON.parse(inputValue);
+  // calling the selectionSort function
+  selectionSortType(array);
+  // converting the array to a string
+  const resultValue = JSON.stringify(array);
+  // showing the result
+  result.textContent = resultValue;
+  
+}
