@@ -16,7 +16,7 @@ function radixSort(array) {
     let digitPlace = 1;
 
 
-    while () {
+    while (Math.floor(maxNumber / digitPlace) > 0) {
 
         
 
