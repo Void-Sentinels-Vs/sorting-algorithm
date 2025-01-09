@@ -27,6 +27,11 @@ function radixSort(array) {
 
 
 
+
+
+
+        // (finglish) raftan be martabe haye badi (10,100,...)
+        digitPlace *= 10;
     }
     // output 
     return array;
