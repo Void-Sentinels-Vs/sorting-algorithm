@@ -1,6 +1,6 @@
 
-
-
+// select input for get value
+const userInput = document.querySelector("#array-input")
 
 // Functions for radix sort algorithm (get array and return a sorted array)
 function radixSort(array) {
@@ -21,11 +21,22 @@ function radixSort(array) {
     */
     while (Math.floor(maxNumber / digitPlace) > 0) {
 
-        
+        // (finglish) jayii baraye negah dari adad ha (10 ta misazim be tedad argham 0-9)
+        let bins = [[], [], [], [], [], [], [], [], [], []];
+
+        // 
+        for (let num of array) {
+            const digit = Math.floor(num / digitPlace) % 10;
+            bins[digit].push(num);
+        }
+
+        // 
+        array = [].concat(...bins);
 
 
 
-
+        // (finglish) raftan be martabe haye badi (10,100,...)
+        digitPlace *= 10;
     }
     // output 
     return array;
