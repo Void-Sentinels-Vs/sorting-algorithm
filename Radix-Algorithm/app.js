@@ -51,9 +51,9 @@ function radixSort(array) {
 // select input for get value
 const userInput = document.querySelector("#array-input")
 // select button
-const btn = document.getElementById(".btnSave");
+const btn = document.querySelector(".btnSave");
 // select div for show output
-const result = document.getElementById("#output");
+const result = document.getElementById("output");
 
 //============================================================================
 
@@ -63,7 +63,7 @@ btn.addEventListener("click",selectionSort);
 // now the function itself
 function selectionSort() {
   //getting the input array
-  const inputValue = input.value;
+  const inputValue = userInput.value;
   // converting the string to an array using JSON.parse
   const array = JSON.parse(inputValue);
   // calling the radix function
@@ -74,3 +74,4 @@ function selectionSort() {
   result.textContent = resultValue;
   
 }
+
