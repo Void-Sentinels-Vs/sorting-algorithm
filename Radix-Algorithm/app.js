@@ -6,7 +6,7 @@
 function radixSort(array) {
 
 
-
+    const maxNumber = Math.max(...array)
 
 
 
