@@ -1,4 +1,4 @@
-function selectionSort(arr) {
+function selectionSortType(arr) {
     //variable for smallest number
   let min;
     //variables for comparing the numbers
@@ -20,3 +20,27 @@ function selectionSort(arr) {
     }
   }
 }
+
+const input = document.getElementById("#array-input");
+const btn = document.getElementById(".btn");
+const result = document.getElementById("#output");
+// giving button an event listener
+btn.addEventListener("click",selectionSort);
+// now the function itself
+function selectionSort() {
+  //getting the input array
+  const inputValue = input.value;
+  // converting the string to an array using JSON.parse
+  const arr = JSON.parse(inputValue);
+  // calling the selectionSort function
+  selectionSortType(arr);
+  // converting the array to a string
+  const resultValue = JSON.stringify(arr);
+  // showing the result
+  result.textContent = resultValue;
+  
+}
+
+
+
+
