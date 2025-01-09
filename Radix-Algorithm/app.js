@@ -4,6 +4,7 @@ const userInput = document.querySelector("#array-input")
 
 const btn = document.getElementById(".btnSave");
 
+const result = document.getElementById("#output");
 
 // Functions for radix sort algorithm (get array and return a sorted array)
 function radixSort(array) {
