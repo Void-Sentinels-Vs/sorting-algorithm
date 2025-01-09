@@ -38,7 +38,8 @@ function selectionSort() {
   const resultValue = JSON.stringify(arr);
   // showing the result
   result.textContent = resultValue;
-  
+  result.style.textShadow = '2px 2px 5px black'
+  result.style.fontSize = '25px'
 }
 
 
