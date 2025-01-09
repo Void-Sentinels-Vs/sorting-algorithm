@@ -21,9 +21,9 @@ function selectionSortType(arr) {
   }
 }
 
-const input = document.getElementById("#array-input");
-const btn = document.getElementById(".btn");
-const result = document.getElementById("#output");
+const input = document.querySelector("#array-input");
+const btn = document.querySelector(".btn");
+const result = document.querySelector("#output");
 // giving button an event listener
 btn.addEventListener("click",selectionSort);
 // now the function itself

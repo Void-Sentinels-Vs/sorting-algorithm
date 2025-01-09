@@ -107,7 +107,7 @@ body > img {
 
 .output-container{
     width: 300px;
-    height: 40px;
+    height: 60px;
     border-radius: 10px;
     text-align: center;
     font-size: 20px;
@@ -118,4 +118,9 @@ body > img {
     align-items: center;
     margin-top: 20px;
     background-color: #ffffff;
+}
+
+#output{
+    color: rgb(55, 55, 55);
+    font-weight: 600;
 }
