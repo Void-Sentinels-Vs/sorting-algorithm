@@ -4,11 +4,8 @@
 
 
 # hadi
-  ## index html + css (simple)
-   
-  *for radix & selection page*
-  
-  Both pages can be similar
+  ## javascript (selection function)
+  *for selection page*
 
 
 
@@ -16,7 +13,7 @@
   ## index html + css (according to UI)
   
   *for first page*
-
+  *sub page (radix & selection)*
 
 # Arshia 
   ## javascript (radix function)
