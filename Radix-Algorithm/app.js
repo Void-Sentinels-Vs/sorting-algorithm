@@ -1,10 +1,15 @@
 
 // select input for get value
 const userInput = document.querySelector("#array-input")
-
+// select button
 const btn = document.getElementById(".btnSave");
-
+// select div for show output
 const result = document.getElementById("#output");
+//============================================================================
+
+
+
+
 
 // Functions for radix sort algorithm (get array and return a sorted array)
 function radixSort(array) {
