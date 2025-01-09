@@ -12,8 +12,8 @@ function radixSort(array) {
     */
     const maxNumber = Math.max(...array)
 
-
-
+    // (finglish) moshakhas mikonad moratab sazi (toye on lahze) bar asas kodam ragham anjam shavad (start az 1 > 10,100,...)
+    let digitPlace = 1;
 
 
 
