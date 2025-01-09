@@ -14,7 +14,7 @@ body{
     margin: 15% auto;
     background-color: #1a0230;
     width: 40%;
-    height: 50vh;
+    height: 60vh;
     border-radius: 10px;
 }
 .input-container{
@@ -50,7 +50,7 @@ body{
 .title{
     text-align: center;
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .btnSave{
     width: 150px;
@@ -59,7 +59,7 @@ body{
     font-size: 20px;
     outline: none;
     border: none;
-    margin: 20px;
+    margin: 15px;
     background-color: #2e0852;
     color: #ffffff;
     cursor: pointer;
