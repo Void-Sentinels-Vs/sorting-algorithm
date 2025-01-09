@@ -1,5 +1,5 @@
 
-
+//"#array-input"
 
 
 // Functions for radix sort algorithm (get array and return a sorted array)
@@ -24,9 +24,14 @@ function radixSort(array) {
         // (finglish) jayii baraye negah dari adad ha (10 ta misazim be tedad argham 0-9)
         let bins = [[], [], [], [], [], [], [], [], [], []];
 
+        // 
+        for (let num of array) {
+            const digit = Math.floor(num / digitPlace) % 10;
+            bins[digit].push(num);
+        }
 
-
-
+        // 
+        array = [].concat(...bins);
 
 
 
