@@ -21,7 +21,8 @@ function radixSort(array) {
     */
     while (Math.floor(maxNumber / digitPlace) > 0) {
 
-        
+        // (finglish) jayii baraye negah dari adad ha (10 ta misazim be tedad argham 0-9)
+        let bins = [[], [], [], [], [], [], [], [], [], []];
 
 
 
