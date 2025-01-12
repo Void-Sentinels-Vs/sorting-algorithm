@@ -3,22 +3,23 @@
 
 
 
-# hadi
+# 👨🏻 hadi
   ## javascript (selection function)
   *for selection page*
 
 
 
-# Paryan
+# 👩🏻‍🦰 Paryan
   ## index html + css (according to UI)
   
   *for first page*
   *sub page (radix & selection)*
 
-# Arshia 
+# 🧑🏻‍🦱 Arshia 
   ## javascript (radix function)
   *for radix page*
 
+---
 
 # 🛠️ Selection & Radix Sort in JavaScript
 
